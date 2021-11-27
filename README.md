@@ -8,6 +8,7 @@ crystaland
 [![CircleCI](https://circleci.com/gh/sweetliquid/crystaland/tree/master.svg?style=shield)](https://circleci.com/gh/sweetliquid/crystaland/tree/master)
 [![Downloads/week](https://img.shields.io/npm/dw/crystaland.svg)](https://npmjs.org/package/crystaland)
 [![License](https://img.shields.io/npm/l/crystaland.svg)](https://github.com/sweetliquid/crystaland/blob/master/package.json)
+[![CodeQL](https://github.com/sweetliquid/crystaland/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sweetliquid/crystaland/actions/workflows/codeql-analysis.yml)
 
 <!-- toc -->
 * [Usage](#usage)
