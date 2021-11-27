@@ -21,7 +21,7 @@ $ npm install -g crystaland
 $ crystaland COMMAND
 running command...
 $ crystaland (-v|--version|version)
-crystaland/0.0.0 darwin-arm64 node-v14.18.1
+crystaland/0.0.1 darwin-arm64 node-v14.18.1
 $ crystaland --help [COMMAND]
 USAGE
   $ crystaland COMMAND
@@ -30,8 +30,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`crystaland add:styles [FILE]`](#crystaland-addstyles-file)
 * [`crystaland hello [FILE]`](#crystaland-hello-file)
 * [`crystaland help [COMMAND]`](#crystaland-help-command)
+
+## `crystaland add:styles [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ crystaland add:styles [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help           show CLI help
+  -i, --input=input    images path
+  -n, --name=name      name to print
+  -o, --output=output  styles path
+```
+
+_See code: [src/commands/add/styles.ts](https://github.com/sweetliquid/crystaland/blob/v0.0.1/src/commands/add/styles.ts)_
 
 ## `crystaland hello [FILE]`
 
@@ -51,7 +70,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/sweetliquid/crystaland/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/sweetliquid/crystaland/blob/v0.0.1/src/commands/hello.ts)_
 
 ## `crystaland help [COMMAND]`
 
